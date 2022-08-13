@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-13T03:26:29 PDT" name="Suite" finished-at="2022-08-13T03:27:02 PDT" duration-ms="32830">
+    <groups>
+    </groups>
+    <test started-at="2022-08-13T03:26:29 PDT" name="Test" finished-at="2022-08-13T03:27:02 PDT" duration-ms="32830">
+      <class name="auto_testcases.Login_test_case">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:auto_testcases.Login_test_case@158d2680]" started-at="2022-08-13T03:26:26 PDT" name="setUpSuite" finished-at="2022-08-13T03:26:29 PDT" duration-ms="3163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:auto_testcases.Login_test_case@158d2680]" started-at="2022-08-13T03:26:29 PDT" name="setup" finished-at="2022-08-13T03:26:46 PDT" duration-ms="16663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginapp()[pri:0, instance:auto_testcases.Login_test_case@158d2680]" started-at="2022-08-13T03:26:46 PDT" name="loginapp" finished-at="2022-08-13T03:26:58 PDT" duration-ms="12174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginapp -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:auto_testcases.Login_test_case@158d2680]" started-at="2022-08-13T03:26:58 PDT" name="tearDownMethod" finished-at="2022-08-13T03:27:01 PDT" duration-ms="2701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginapp status=SUCCESS method=Login_test_case.loginapp()[pri:0, instance:auto_testcases.Login_test_case@158d2680] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:auto_testcases.Login_test_case@158d2680]" started-at="2022-08-13T03:27:01 PDT" name="teardown" finished-at="2022-08-13T03:27:02 PDT" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- auto_testcases.Login_test_case -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
